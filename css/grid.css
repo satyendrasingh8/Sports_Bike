@@ -1,0 +1,78 @@
+.container
+{
+	width:1200px;
+	position:relative;
+	margin:0px auto;
+	padding:0;
+	
+}
+.container:after
+{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+visibility:hidden;
+}
+.wrap-col{margin:8px; }
+
+.container .row:before, .row:after {
+	content:"";
+	display:block;
+	height:0;
+	width:0;
+	overflow:hidden;
+visibility:hidden;
+	
+}
+.container .row:after {
+clear:both;
+
+}
+.adjust-1 {
+	 float:left;
+	 display:inline-block;
+	 width:33.33%;
+	  
+}
+
+.adjust-2 {
+	 float:left;
+	 display:inline-block;
+	 width:50%;
+	  
+}
+
+.adjust-3 {
+	 float:left;
+	 display:inline-block;
+	 width:25%;
+	  
+}
+
+
+.adjust-4 {
+	 float:left;
+	 display:inline-block;
+	 width:66.66%;
+	  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
